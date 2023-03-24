@@ -37,9 +37,14 @@ export default function Quotes() {
       </div>
       <div id="buttons">
         <div id="tweet-quote">
-          <a href="twitter.com/intent/tweet">Tweet link</a>
+          <a href="twitter.com/intent/tweet">
+            Tweet link
+            <img src="https://www.flaticon.com/free-icon/twitter_733579"></img>
+          </a>
         </div>
-        <button onClick={handleClick} id="new-quote"></button>
+        <button onClick={handleClick} id="new-quote">
+          Get New Quote!
+        </button>
       </div>
     </div>
   );
