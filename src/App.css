@@ -20,6 +20,7 @@ body {
 #text {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
+  margin: 30px;
 }
 
 #author {
@@ -29,11 +30,17 @@ body {
   padding: 10px;
 }
 
+#author > p {
+  font-weight: bold;
+  margin-right: 35px;
+}
+
 #buttons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 2rem;
+  margin: 30px;
 }
 
 #tweet-quote {
@@ -45,6 +52,11 @@ body {
 }
 
 #tweet-quote > a {
+  color: #0059ff;
+}
+
+.twitter-icon {
+  font-size: 30px;
   color: #fff;
 }
 

@@ -30,16 +30,18 @@ export default function Quotes() {
   return (
     <div id="quote-box">
       <div id="text">
-        <p>{quote}</p>
+        <p class="quote-text">
+          <i class="fa-sharp fa-solid fa-quote-left"></i>
+          {quote}
+        </p>
       </div>
       <div id="author">
         <p>{author}</p>
       </div>
       <div id="buttons">
         <div id="tweet-quote">
-          <a href="twitter.com/intent/tweet">
-            Tweet link
-            <img src="https://www.flaticon.com/free-icon/twitter_733579"></img>
+          <a href={`https://twitter.com/intent/tweet`}>
+            <i class="fa-brands fa-twitter twitter-icon"></i>
           </a>
         </div>
         <button onClick={handleClick} id="new-quote">
